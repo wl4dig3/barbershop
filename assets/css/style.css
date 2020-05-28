@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  box-sizing: border-box; }
+
+img {
+  max-width: 100%; }
+
+.hero-section__titulo {
+  font-size: 30px;
+  color: #fff;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  text-align: center;
+  font-style: italic; }
+
+@media (min-width: 480px) {
+  .hero-section__titulo {
+    font-size: 70px; } }
+.hero-section {
+  background-image: url(../img/post-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  height: 800px; }
+
+.hero-section div {
+  height: 50px;
+  width: 50px; }
+
+.hero-section .arrow i {
+  color: #fff; }
+
+/*# sourceMappingURL=style.css.map */
