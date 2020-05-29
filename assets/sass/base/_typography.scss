@@ -1,4 +1,4 @@
-.hero-section__titulo {
+h1 {
     font-size: $x-large;
     color: $white;
     font-family: $playfair;
@@ -6,11 +6,22 @@
     text-align: center;
     font-style: italic;
 }
+h2 {
+    font-family: $playfair;
+    font-size: $x-large;
+    font-style: italic;
+}
+.article__biography h3 {
+    font-family: $roboto;
+    font-size: $medium;
+    color: $rudy-pink;
+    font-weight: $light;
+}
 .article__info_text-playfair {
     font-family: $playfair;
     font-size: $medium;
     font-weight: $regular;
-    padding: 30px 0;
+    
 }
 .article__info_text-roboto {
     font-family: $roboto;
@@ -22,7 +33,7 @@
 
 // Mediaqueri
 @media (min-width:480px) {
-    .hero-section__titulo {
+    h1 {
         font-size: $xx-large;
     }
     .article__info_text-playfair {

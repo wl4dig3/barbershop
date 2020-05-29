@@ -7,7 +7,7 @@ body {
 img {
   max-width: 100%; }
 
-.hero-section__titulo {
+h1 {
   font-size: 30px;
   color: #fff;
   font-family: "Playfair Display", serif;
@@ -15,11 +15,21 @@ img {
   text-align: center;
   font-style: italic; }
 
+h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  font-style: italic; }
+
+.article__biography h3 {
+  font-family: "Roboto", serif;
+  font-size: 16px;
+  color: #d76c69;
+  font-weight: 300; }
+
 .article__info_text-playfair {
   font-family: "Playfair Display", serif;
   font-size: 16px;
-  font-weight: 400;
-  padding: 30px 0; }
+  font-weight: 400; }
 
 .article__info_text-roboto {
   font-family: "Roboto", serif;
@@ -28,7 +38,7 @@ img {
   padding: 10px 20px; }
 
 @media (min-width: 480px) {
-  .hero-section__titulo {
+  h1 {
     font-size: 70px; }
 
   .article__info_text-playfair {
@@ -77,6 +87,31 @@ img {
 
 .hero-section .arrow i {
   color: #fff; }
+
+.article__info_text-playfair {
+  padding: 30px 20; }
+
+.article__info_text-roboto {
+  padding: 10px 20px; }
+
+.article__biography p {
+  display: none;
+  flex-wrap: wrap;
+  flex-direction: column; }
+
+.article__biography h2, h3 {
+  text-align: center; }
+
+.article__biography {
+  margin: 20px 0; }
+
+.article__biography h2 {
+  margin: 20px 0; }
+
+.article__biography img {
+  border-radius: 150px;
+  display: block;
+  margin: 0 auto; }
 
 .article__info .btn {
   border-radius: 50px;
