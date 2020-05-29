@@ -89,7 +89,7 @@ h2 {
   color: #fff; }
 
 .article__info_text-playfair {
-  padding: 30px 20; }
+  padding: 30px 20px; }
 
 .article__info_text-roboto {
   padding: 10px 20px; }
@@ -103,7 +103,7 @@ h2 {
   text-align: center; }
 
 .article__biography {
-  margin: 20px 0; }
+  margin: 50px 0; }
 
 .article__biography h2 {
   margin: 20px 0; }
@@ -112,6 +112,16 @@ h2 {
   border-radius: 150px;
   display: block;
   margin: 0 auto; }
+
+.footer {
+  height: 250px;
+  background-color: #121619;
+  display: flex;
+  justify-content: center; }
+
+.footer .footer_logo {
+  width: 130px;
+  align-self: center; }
 
 .article__info .btn {
   border-radius: 50px;
@@ -130,5 +140,16 @@ h2 {
 @media (min-width: 480px) {
   .article__info .centrado-boton {
     display: inline-flex; } }
+.paginacion {
+  height: 150px;
+  background-color: #e6e7e7;
+  margin: 20px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center; }
+
+.paginacion nav {
+  border-radius: 10px 10px 10px 10px; }
 
 /*# sourceMappingURL=style.css.map */
