@@ -37,6 +37,11 @@ h2 {
   font-weight: 300;
   padding: 10px 20px; }
 
+.article__biography p {
+  font-family: "Roboto", serif;
+  font-size: 14px;
+  line-height: 2.5; }
+
 @media (min-width: 480px) {
   h1 {
     font-size: 70px; }
@@ -94,25 +99,38 @@ h2 {
 .article__info_text-roboto {
   padding: 10px 20px; }
 
-.article__biography p {
-  display: none;
+.article__biography .article__biography_titulos {
+  text-align: center;
+  vertical-align: middle; }
+
+.article__biography .arrow {
+  margin: 50px 0;
+  display: flex;
   flex-wrap: wrap;
-  flex-direction: column; }
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center; }
 
-.article__biography h2, h3 {
-  text-align: center; }
-
-.article__biography {
-  margin: 50px 0; }
-
-.article__biography h2 {
-  margin: 20px 0; }
+.article__biography div {
+  align-self: auto; }
 
 .article__biography img {
   border-radius: 150px;
   display: block;
   margin: 0 auto; }
 
+@media (min-width: 480px) {
+  .article__biography {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center; } }
+@media (max-width: 480px) {
+  .article__biography p {
+    display: none; } }
 .footer {
   height: 250px;
   background-color: #121619;
@@ -120,7 +138,7 @@ h2 {
   justify-content: center; }
 
 .footer .footer_logo {
-  width: 130px;
+  width: 120px;
   align-self: center; }
 
 .article__info .btn {
@@ -149,7 +167,12 @@ h2 {
   align-content: center;
   align-items: center; }
 
-.paginacion nav {
-  border-radius: 10px 10px 10px 10px; }
+.pagination .page-item:first-child a {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px; }
+
+.pagination .page-item:last-child a {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px; }
 
 /*# sourceMappingURL=style.css.map */

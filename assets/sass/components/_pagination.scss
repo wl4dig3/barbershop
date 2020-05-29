@@ -7,6 +7,12 @@
     align-content: center;
     align-items: center;
 }
-.paginacion nav  {
-    border-radius: 10px 10px 10px 10px;
+.pagination .page-item:first-child a  {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
 }
+.pagination .page-item:last-child a {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
